@@ -103,6 +103,25 @@ p{
 .hero h1{
   font-size:clamp(44px,5vw,68px)
 }
+.hero-actions{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:4px 20px
+}
+.hero-actions a{
+  display:inline-flex;
+  align-items:center;
+  min-height:44px
+}
+.hero-actions .button{
+  margin:0;
+  background:#94dccc;
+  color:#0b1018
+}
+.hero-actions .button:hover{
+  background:#c6fff1
+}
 .facts{
   display:flex;
   gap:30px;
